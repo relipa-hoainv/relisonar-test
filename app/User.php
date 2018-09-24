@@ -29,5 +29,5 @@ class User extends Authenticatable
     ];
 
     protected $test = 'testtest';
-    protected $test2 = 'test2';
+    protected $test2 = 'test2test2';
 }

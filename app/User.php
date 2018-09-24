@@ -28,6 +28,6 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $test = 'test';
+    protected $test = 'testtest';
     protected $test2 = 'test2';
 }

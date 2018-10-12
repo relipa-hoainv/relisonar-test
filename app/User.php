@@ -28,6 +28,19 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $test = 'testtest';
-    protected $test2 = 'test2test2';
+    private $test = 'testzzzzzzzzzzzzz';
+    private $test2 = 'test2123';
+    private $test3 = 'tttt';
+    private $test4 = '12345876';
+    private $test5 = '12345876';
+
+    private function testComment() {
+        $test2 = 1;
+        return null;
+        $xxx = '';
+        $this->test = $xxx;
+        echo 'OKです。';
+        echo 'OKxxx';
+    }
+
 }

@@ -31,6 +31,8 @@ class User extends Authenticatable
     protected $test = 'testtest';
     protected $test2 = 'test2test2';
 
+    private $check_WIP = false;
+
     private function newPR() {
         return null;
         $test = 'OK';

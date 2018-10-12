@@ -41,4 +41,8 @@ class User extends Authenticatable
         $test = 'OK';
         $wip = 'ok';
     }
+
+    private function testSkipWIP () {
+        
+    }
 }

@@ -32,4 +32,6 @@ class User extends Authenticatable
     private $test2 = 'test2123';
     private $test3 = 'tttt';
     private $test4 = '12345876';
+    private $test5 = '12345876';
+
 }

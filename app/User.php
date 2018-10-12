@@ -28,7 +28,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    private $test = 'test';
+    private $test = 'testzzzzzzzzzzzzz';
     private $test2 = 'test2123';
     private $test3 = 'tttt';
     private $test4 = '12345876';

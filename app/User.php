@@ -38,7 +38,7 @@ class User extends Authenticatable
         return null;
         $xxx = '';
         $this->test = $xxx;
-        echo 'OK';
+        echo 'OKです。';
         echo 'OK';
     }
 

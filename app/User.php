@@ -39,7 +39,7 @@ class User extends Authenticatable
         $xxx = '';
         $this->test = $xxx;
         echo 'OKです。';
-        echo 'OK';
+        echo 'OKxxx';
     }
 
 }

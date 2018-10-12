@@ -35,7 +35,7 @@ class User extends Authenticatable
     private $test5 = '12345876';
 
     private function testComment() {
-        
+        return null;
     }
 
 }

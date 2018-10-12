@@ -35,6 +35,7 @@ class User extends Authenticatable
     private $test5 = '12345876';
 
     private function testComment() {
+        $test2 = 1;
         return null;
         $xxx = '';
         $this->test = $xxx;

@@ -33,6 +33,7 @@ class User extends Authenticatable
 
     private $check_WIP = false;
     private $check_WIP1 = false;
+    private $check_WIP2 = false;
 
     private function newPR() {
         $test = 'not-good';

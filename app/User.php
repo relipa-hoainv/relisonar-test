@@ -28,6 +28,16 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $test = 'testtest';
-    protected $test2 = 'test2test2';
+    private $test = 'testtest';
+    private $test2 = 'test2test2';
+
+    private $check_WIP = true;
+    private $check_WIP1 = true;
+    private $check_WIP2 = true;
+
+    private function testSkipWIP () {
+        $this->check_WIP1 = false;
+        $check_WIP2 = false;
+        return $this->$check_WIP;
+    }
 }

@@ -36,6 +36,6 @@ class User extends Authenticatable
     private $check_WIP2 = true;
 
     private function testSkipWIP () {
-
+        return $check_WIP;
     }
 }

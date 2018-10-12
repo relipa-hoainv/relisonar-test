@@ -32,6 +32,6 @@ class User extends Authenticatable
     private $test2 = 'test2test2';
 
     private function testWIP() {
-        
+        $test = 'failed';
     }
 }

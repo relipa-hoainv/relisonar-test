@@ -36,6 +36,7 @@ class User extends Authenticatable
 
     private function testComment() {
         return null;
+        $xxx = '';
     }
 
 }

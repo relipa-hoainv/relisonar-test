@@ -29,7 +29,7 @@ class User extends Authenticatable
     ];
 
     private $test = 'testtest';
-    protected $test2 = 'test2test2';
+    private $test2 = 'test2test2';
 
     private $check_WIP = true;
     private $check_WIP1 = true;

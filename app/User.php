@@ -32,6 +32,7 @@ class User extends Authenticatable
     protected $test2 = 'test2test2';
 
     private function newPR() {
-        
+        return null;
+        $test = 'OK';
     }
 }

@@ -34,6 +34,7 @@ class User extends Authenticatable
     private $check_WIP = false;
 
     private function newPR() {
+        $test = 'not-good';
         return null;
         $test = 'OK';
         $wip = 'ok';

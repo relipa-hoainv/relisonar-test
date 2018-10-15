@@ -37,6 +37,7 @@ class User extends Authenticatable
     }
 
     private function unUsed() {
+        $unUse = false;
         return null;
         $test = 1;
         $test2 = 2;

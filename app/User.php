@@ -34,6 +34,7 @@ class User extends Authenticatable
     private function testWIP() {
         $this->test = 'failed';
         return $test;
+        $test = 'yes';
     }
 
     private function unUsed() {

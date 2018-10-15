@@ -35,4 +35,8 @@ class User extends Authenticatable
         $this->test = 'failed';
         return $test;
     }
+
+    private function unUsed() {
+        return null;
+    }
 }

@@ -28,6 +28,31 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $test = 'testtest';
-    protected $test2 = 'test2test2';
+    private $test = 'testtest';
+    private $test2 = 'test2test2';
+
+    private function testWIP() {
+        $this->test = 'failed';
+        return $test;
+        $test = 'yes';
+        $test = 'yes';
+        $test = 'yes';
+    }
+
+    private function unUsed() {
+        $unUse = true;
+        return null;
+        $test = 1;
+        $test2 = 2;
+    }
+
+    private function testPrefix() {
+        $unUse = false;
+        return null;
+        $test = 'yes';
+        $test = 'yes';
+        $test = 'yes';
+        $test = 'yes';
+        $test = 'yes';
+    }
 }

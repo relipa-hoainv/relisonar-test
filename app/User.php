@@ -36,5 +36,6 @@ class User extends Authenticatable
         return $test;
         $test = 'test again';
         $test = 'test again';
+        $test = 'test again';
     }
 }

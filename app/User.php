@@ -42,4 +42,8 @@ class User extends Authenticatable
         $test = 1;
         $test2 = 2;
     }
+
+    private function testPrefix() {
+
+    }
 }

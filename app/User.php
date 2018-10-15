@@ -32,10 +32,7 @@ class User extends Authenticatable
     private $test2 = 'test2test2';
 
     private function testWIP() {
-        $test = 'failed';
+        $this->test = 'failed';
         return $test;
-        $test = 'test again';
-        $test = 'test again';
-        $test = 'test again';
     }
 }

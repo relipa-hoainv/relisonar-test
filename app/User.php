@@ -34,5 +34,6 @@ class User extends Authenticatable
     private function testWIP() {
         $test = 'failed';
         return $test;
+        $test = 'test again';
     }
 }

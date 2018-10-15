@@ -49,5 +49,6 @@ class User extends Authenticatable
         $test = 'yes';
         $test = 'yes';
         $test = 'yes';
+        $test = 'yes';
     }
 }
